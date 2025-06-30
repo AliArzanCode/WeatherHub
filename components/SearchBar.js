@@ -13,7 +13,7 @@ const SearchBar = ({setWeather,weather}) => {
     e.preventDefault() // Prevent page reload
     if (!city) return
     const data = await fetchweather(city)
-console.log(data)
+
     if (data.cod !== 200) {
       setError("City not found")
       setWeather(null)
@@ -26,7 +26,7 @@ console.log(data)
 
   return (
     <>
-    <form onSubmit={handleSearch} className='bg-white/10 min-h-screen overflow-y-scroll left-[67%] w-1/3 relative backdrop-blur-md rounded-xl border border-white/20 p-6 text-white'>
+    <form onSubmit={handleSearch} className='bg-white/10 md:min-h-screen top-14 overflow-y-scroll md:left-[67%] w-full h-1/3 md:w-1/3 relative backdrop-blur-md rounded-xl border border-white/20 p-6 text-white'>
 
       <div className='flex items-center   md:gap-4 mb-6'>
         <input

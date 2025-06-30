@@ -42,7 +42,7 @@ export default function Home() {
         height: "100vh",
         width: "100%",
       }}
-      className="overflow-hidden transition-all duration-500"
+      className="overflow-x-hidden overflow-y-hidden transition-all duration-500"
     >
       <WeatherFooter weather={weather} />
       <SearchBar setWeather={setWeather} weather={weather} />
