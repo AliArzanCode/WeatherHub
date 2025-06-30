@@ -18,7 +18,7 @@ const About = () => {
           About Me
         </h1>
         <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-          Hey there! I'm <span className="font-semibold text-blue-600">Ali Arzan Zaidi</span>, an engineering student
+          Hey there! I&apos;m <span className="font-semibold text-blue-600">Ali Arzan Zaidi</span>, an engineering student
           pursuing B.Tech in Computer Science and Engineering.
         </p>
         <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
