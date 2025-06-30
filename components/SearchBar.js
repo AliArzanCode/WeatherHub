@@ -30,7 +30,7 @@ const SearchBar = ({setWeather,weather}) => {
 
       <div className='flex items-center   md:gap-4 mb-6'>
         <input
-          className='w-full bg-transparent  border-b border-white/40 outline-none px-2 py-2 text-white'
+          className='w-full bg-transparent  border-b border-white/40 outline-none px-2 py-2 text-gray-600'
           onChange={(e) => setCity(e.target.value)}
           type="text"
           fill="gray"

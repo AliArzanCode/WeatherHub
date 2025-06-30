@@ -19,7 +19,7 @@ const WeatherFooter = ({ weather }) => {
 
   console.log(date)
   return (
-    <div className="absolute bottom-20 w-96 left-2 md:left-48 flex items-center gap-2 md:gap-14 text-gray-200 ">
+    <div className="box absolute bottom-20 w-96 right-0 md:left-48 flex items-center gap-2 md:gap-14 text-gray-200 ">
       {/* Temperature */}
       <div className="text-6xl flex items-center">
         {temp}
