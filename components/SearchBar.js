@@ -13,7 +13,7 @@ const SearchBar = ({setWeather,weather}) => {
     e.preventDefault() // Prevent page reload
     if (!city) return
     const data = await fetchweather(city)
-
+console.log(data)
     if (data.cod !== 200) {
       setError("City not found")
       setWeather(null)
