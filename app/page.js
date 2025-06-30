@@ -39,10 +39,10 @@ export default function Home() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        height: "100vh",
-        width: "100%",
+       
       }}
-      className="overflow-x-hidden overflow-y-hidden transition-all duration-500"
+   className="min-h-screen w-screen overflow-x-hidden relative"
+
     >
       <WeatherFooter weather={weather} />
       <SearchBar setWeather={setWeather} weather={weather} />
