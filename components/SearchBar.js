@@ -26,7 +26,7 @@ const SearchBar = ({setWeather,weather}) => {
 
   return (
     <>
-  <form onSubmit={handleSearch} className='bg-white/10  top-14 overflow-auto md:left-[67%] w-full md:min-h-screen h-64 md:w-1/3 relative backdrop-blur-md rounded-xl border border-white/20 p-6 text-white'>
+  <form onSubmit={handleSearch} className='bg-white/10  top-14 overflow-auto md:left-[67%] w-full md:min-h-screen h-72 md:w-1/3 relative backdrop-blur-md rounded-xl border border-white/20 p-6 text-white'>
 
       <div className='flex items-center   md:gap-4 mb-6'>
         <input
